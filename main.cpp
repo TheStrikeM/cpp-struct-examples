@@ -1,6 +1,8 @@
 #include <iostream>
+#include "examples.cpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Example exam(10, 20);
+    exam.printSum();
     return 0;
 }

@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/thestrikem/CLionProjects/struct/examples.cpp">
+			<Option target="struct"/>
+		</Unit>
 		<Unit filename="/home/thestrikem/CLionProjects/struct/main.cpp">
 			<Option target="struct"/>
 		</Unit>

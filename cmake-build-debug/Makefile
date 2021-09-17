@@ -129,6 +129,30 @@ struct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
 .PHONY : struct/fast
 
+examples.o: examples.cpp.o
+.PHONY : examples.o
+
+# target to build an object file
+examples.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/examples.cpp.o
+.PHONY : examples.cpp.o
+
+examples.i: examples.cpp.i
+.PHONY : examples.i
+
+# target to preprocess a source file
+examples.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/examples.cpp.i
+.PHONY : examples.cpp.i
+
+examples.s: examples.cpp.s
+.PHONY : examples.s
+
+# target to generate assembly for a file
+examples.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/examples.cpp.s
+.PHONY : examples.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... struct"
+	@echo "... examples.o"
+	@echo "... examples.i"
+	@echo "... examples.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

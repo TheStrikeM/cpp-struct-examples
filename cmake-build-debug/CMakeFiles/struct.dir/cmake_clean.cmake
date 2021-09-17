@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/struct.dir/examples.cpp.o"
   "CMakeFiles/struct.dir/main.cpp.o"
   "struct"
   "struct.pdb"
